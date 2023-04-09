@@ -1,0 +1,93 @@
+@keyframes subtleGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    width: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+button {
+    cursor: pointer;
+    background-color: #F76B1C;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 2px;
+    border-radius: 50px;
+    transition: background 0.3s, transform 0.3s;
+}
+button:hover {
+    background: linear-gradient(120deg, #FAD961, #F76B1C);
+    background-size: 300% 300%;
+    animation: subtleGradient 3s ease infinite;
+    transform: scale(1.05);
+}
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+#counter, #extensionName {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+}
+#extensionName {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.highlight {
+    color: #F76B1C;
+}
+#resetBtn {
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    width: 40px;
+    height: 40px;
+    background-image: url('restart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    padding: 0;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+#resetBtn:hover {
+    background-color: #F76B1C;
+    transform: scale(1.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#resetBtn:active {
+    background-color: #F76B1C;
+    transform: scale(0.9);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+  
