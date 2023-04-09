@@ -7,3 +7,12 @@ Main Features:
 - Easy-to-use interface: Interact with the extension through a simple and intuitive popup interface.
 
 To get started, simply install the extension and let it work its magic while you browse key-drop.com. Say goodbye to manually searching for free cases and enjoy a more efficient and convenient experience.
+
+Installation guide:
+- Obtain the extension files: Get a compressed (.zip) file with the extension files.
+- Extract the files: Unzip the downloaded file to access the extension files.
+- Open Chrome and go to the Extensions page: Click the three-dot menu > More tools > Extensions.
+- Enable Developer mode: Toggle on "Developer mode" in the top-right corner.
+- Load the unpacked extension: Click "Load unpacked" and select the folder with the extracted extension files.
+- Verify the installation: Check if the extension appears on the Extensions page and in the Chrome toolbar.
+- Use the extension: Click the extension's icon in the toolbar to interact with it.
