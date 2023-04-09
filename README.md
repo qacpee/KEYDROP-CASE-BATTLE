@@ -16,3 +16,11 @@ Installation guide:
 - Load the unpacked extension: Click "Load unpacked" and select the folder with the extracted extension files.
 - Verify the installation: Check if the extension appears on the Extensions page and in the Chrome toolbar.
 - Use the extension: Click the extension's icon in the toolbar to interact with it.
+
+
+TO-DO List:
+- User-selected case option: Add a feature that allows users to choose in GUI specific cases they want to automatically join.
+- Pause and resume functionality: Enable users to pause the auto-join feature and resume it at their convenience.
+- Implement dark mode: Add a dark theme option for the extension's popup interface.
+
+We're working on a solution for option to directly joining battles, but haven't found one yet.
